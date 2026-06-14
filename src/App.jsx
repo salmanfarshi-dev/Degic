@@ -3,6 +3,7 @@ import Navbar from './layout/Navbar'
 import Hero from './layout/Hero'
 import Presentation from './layout/Presentation'
 import Slider from './layout/Slider'
+import Vedio from './Component.jsx/Vedio'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
    <Hero/>
    <Presentation/>
    <Slider/>
+   <Vedio/>
    </>
   )
 }
