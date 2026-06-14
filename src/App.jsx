@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './layout/Navbar'
 import Hero from './layout/Hero'
 import Presentation from './layout/Presentation'
+import Slider from './layout/Slider'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
    <Navbar/>
    <Hero/>
    <Presentation/>
+   <Slider/>
    </>
   )
 }
