@@ -4,6 +4,7 @@ import Hero from './layout/Hero'
 import Presentation from './layout/Presentation'
 import Slider from './layout/Slider'
 import Vedio from './Component.jsx/Vedio'
+import Time from './layout/Time'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
    <Presentation/>
    <Slider/>
    <Vedio/>
+   <Time/>
    </>
   )
 }
