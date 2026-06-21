@@ -5,6 +5,8 @@ import Presentation from './layout/Presentation'
 import Slider from './layout/Slider'
 import Vedio from './Component.jsx/Vedio'
 import Time from './layout/Time'
+import Bompart from './layout/Bompart'
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
    <Slider/>
    <Vedio/>
    <Time/>
+  <Bompart/>
    </>
   )
 }
