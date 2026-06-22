@@ -29,7 +29,7 @@ function Navbar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+         <img src={Logo} alt="logo" className="w-[200px]"/>
       </Typography>
       <Divider />
       <List>
@@ -92,7 +92,7 @@ function Navbar(props) {
         <nav>
           <Drawer
             container={container}
-            anchor="right"
+            anchor="left"
             variant="temporary"
             open={mobileOpen}
             onClose={handleDrawerToggle}

@@ -7,6 +7,7 @@ import Vedio from './Component.jsx/Vedio'
 import Time from './layout/Time'
 import Bompart from './layout/Bompart'
 import Blog from './layout/Blog'
+import Footer from './layout/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
    <Time/>
   <Bompart/>
   <Blog/>
+  <Footer/>
    </>
   )
 }

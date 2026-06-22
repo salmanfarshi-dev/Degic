@@ -66,13 +66,13 @@ function Slider() {
 
 
   return (
-   <section className='container md:px-20 md:py-24 py-2 '>
+   <section className='container md:px-20 md:py-24 py-2 px-4 '>
 
     <div className="flex flex-col md:flex-row justify-between items-center py-5 md:py-0 mx-auto">
         <div className='flex flex-col md:w-1/2 w-full'>
             <img className='w-[100px] object-cover' src={Logo} alt="logo" />
-            <h2 className='font-inter text-black font-medium text-[55px] leading-[60px] tracking-[-2.5px] md:w-[463px] w-full mt-4 mb-7'>{heading}</h2>
-            <p className='text-black/50 text-[21px] font-inter leading-[30px] tracking-[-0.8px]'>{pera}</p>
+            <h2 className='font-inter text-black font-medium text-[30px] md:text-[55px] md:leading-[60px] md:tracking-[-2.5px] md:w-[463px] w-full mt-4 mb-7'>{heading}</h2>
+            <p className='text-black/50 text-[16px] md:text-[21px] font-inter md:leading-[30px] md:tracking-[-0.8px]'>{pera}</p>
 
             <div className=" mt-[51px] flex gap-x-3">
                 <button onClick={prevslider} className='w-[50px] h-[50px] flex justify-center items-center text-[26px] hover:bg-gray-300 duration-300 rounded-full bg-[#C4C4C4] bg-opacity-20 text-[#323232] '><MdKeyboardArrowLeft  className='text-center'/> </button>
@@ -82,7 +82,7 @@ function Slider() {
         </div>
 
 
-        <div className='md:w-1/2 w-full'>
+        <div className='md:w-1/2 w-full mt-10 md:mt-0'>
         <img className='w-[300px] object-cover' src={image} alt="" />
 
         </div>
@@ -90,7 +90,7 @@ function Slider() {
 
 
 
-    <div className='mt-[70px] mb-[130px]'> 
+    <div className='mt-10 md:mt-[70px] mb-6 md:mb-[130px]'> 
         <div className="overflow-hidden w-full ">
             <div className="flex animate-slider gap-32 items-center justify-center">
                 {[...images, ...images].map((img,index)=>(
